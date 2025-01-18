@@ -11,7 +11,7 @@ To develop a creative writing assistant that suggests story ideas using a vector
 
 ### **Project Scope**
 1. **Core Features:**
-    - [ ] Generate creative story ideas based on user prompts.
+    - [X] Generate creative story ideas based on user prompts.
     - [ ] Allow users to approve, reject, or modify generated ideas.
     - [ ] Save approved ideas for later use.
     - [ ] Provide iterative refinement of ideas based on user feedback.
@@ -27,7 +27,7 @@ To develop a creative writing assistant that suggests story ideas using a vector
 ### **Project Phases**
 
 #### **Phase 1: Setup (30 minutes)**
-- [ ] Install and configure Weaviate locally or via a cloud provider.
+- [X] Install and configure Weaviate locally or via a cloud provider.
 - [ ] Set up LangGraph with necessary dependencies.
 - [ ] Initialize a FastAPI project for API interactions.
 
