@@ -13,7 +13,7 @@ def load_ideas() -> IdeaList:
 def save_ideas_to_weaviate():
     # Connect to Weaviate using settings
     client = weaviate.connect_to_weaviate_cloud(
-        cluster_url=settings.weaviate_endpoint,
+        cluster_url=settings.weaviate_endpoint.unicode_string(),
         auth_credentials=weaviate.auth.AuthApiKey(api_key=settings.weaviate_api_key),
         headers={'X-OpenAI-Api-key': settings.openai_api_key}
     )
@@ -31,7 +31,7 @@ def save_ideas_to_weaviate():
             },
             class_name="CreativeIdea"
         )
-
+    client.close()
     print("All ideas have been saved to Weaviate.")
 
 # Call the function to save ideas
