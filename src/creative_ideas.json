@@ -1,0 +1,535 @@
+{
+    "creative_writing_ideas":[
+       {
+          "idea":"A young botanist discovers a plant capable of producing dreams and becomes entangled in the dreams of others.",
+          "tags":[
+             "botany",
+             "dreams",
+             "mystery"
+          ],
+          "inspiration":"Le Voyage dans la Lune"
+       },
+       {
+          "idea":"An ancient library holds books that predict the future—but only for the person holding them.",
+          "tags":[
+             "library",
+             "future",
+             "fantasy"
+          ],
+          "inspiration":"Le Royaume des fées"
+       },
+       {
+          "idea":"A society where everyone is born with a unique tattoo that maps their destiny, and a rebel who erases theirs.",
+          "tags":[
+             "rebellion",
+             "destiny",
+             "society"
+          ],
+          "inspiration":"Les Quat'Cents Farces du diable"
+       },
+       {
+          "idea":"A town plagued by echoes of conversations that were never spoken.",
+          "tags":[
+             "mystery",
+             "echoes",
+             "town"
+          ],
+          "inspiration":"Le Château hanté"
+       },
+       {
+          "idea":"A clockmaker builds a machine that can rewind time, but only for the last 24 hours.",
+          "tags":[
+             "time travel",
+             "clockmaker",
+             "machine"
+          ],
+          "inspiration":"La Colonne de feu"
+       },
+       {
+          "idea":"An artist's paintings begin to alter reality, each brushstroke changing the world subtly.",
+          "tags":[
+             "art",
+             "reality",
+             "magic"
+          ],
+          "inspiration":"Illusions funambulesques"
+       },
+       {
+          "idea":"A family heirloom photograph album that shows a new picture of future events every week.",
+          "tags":[
+             "heirloom",
+             "future",
+             "photographs"
+          ],
+          "inspiration":"Le Portrait mystérieux"
+       },
+       {
+          "idea":"A post-apocalyptic world where memories are currency and forgetting is a crime.",
+          "tags":[
+             "post-apocalypse",
+             "memory",
+             "crime"
+          ],
+          "inspiration":"Le Rêve du baron de Münchausen"
+       },
+       {
+          "idea":"A detective solving a murder where the victim is still alive but will die in the future.",
+          "tags":[
+             "detective",
+             "future",
+             "murder mystery"
+          ],
+          "inspiration":"Le Spectre rouge"
+       },
+       {
+          "idea":"A mysterious train station that connects to alternate versions of the same city.",
+          "tags":[
+             "train station",
+             "alternate reality",
+             "mystery"
+          ],
+          "inspiration":"Le Tunnel sous la Manche"
+       },
+       {
+          "idea":"A linguist uncovers an ancient language that brings inanimate objects to life.",
+          "tags":[
+             "language",
+             "mystery",
+             "magic"
+          ],
+          "inspiration":"Les Illusions fantaisistes"
+       },
+       {
+          "idea":"A street vendor sells stars in jars, claiming they’re fragments of people’s dreams.",
+          "tags":[
+             "dreams",
+             "stars",
+             "vendor"
+          ],
+          "inspiration":"Les Invites de M. Latourte"
+       },
+       {
+          "idea":"A child born with the ability to manipulate the weather around them, struggling to keep their emotions in check.",
+          "tags":[
+             "weather",
+             "emotion",
+             "child"
+          ],
+          "inspiration":"La Fée Carabosse"
+       },
+       {
+          "idea":"An astronaut returns from a solo mission to find Earth’s history completely rewritten.",
+          "tags":[
+             "astronaut",
+             "history",
+             "mystery"
+          ],
+          "inspiration":"Voyage à travers l'impossible"
+       },
+       {
+          "idea":"A baker creates pastries that evoke specific memories for those who eat them.",
+          "tags":[
+             "baker",
+             "memory",
+             "pastries"
+          ],
+          "inspiration":"Le Repas fantastique"
+       },
+       {
+          "idea":"A town where everyone’s shadow shows their true feelings.",
+          "tags":[
+             "shadow",
+             "emotions",
+             "mystery"
+          ],
+          "inspiration":"Les Cartes vivantes"
+       },
+       {
+          "idea":"A musician plays a melody that compels listeners to reveal their deepest secrets.",
+          "tags":[
+             "musician",
+             "secrets",
+             "melody"
+          ],
+          "inspiration":"Le Mélomane"
+       },
+       {
+          "idea":"A scientist accidentally creates a portal to a dimension of pure sound.",
+          "tags":[
+             "portal",
+             "dimension",
+             "sound"
+          ],
+          "inspiration":"Le Cabinet de Méphistophélès"
+       },
+       {
+          "idea":"A group of strangers wake up in a room, each with a tattoo that reveals one piece of their shared mystery.",
+          "tags":[
+             "strangers",
+             "tattoo",
+             "mystery"
+          ],
+          "inspiration":"Les Sept Péchés capitaux"
+       },
+       {
+          "idea":"An antique shop where the items whisper stories of their previous owners.",
+          "tags":[
+             "antique",
+             "stories",
+             "magic"
+          ],
+          "inspiration":"La Chaise à porteurs enchantée"
+       },
+       {
+          "idea":"A writer discovers that the characters in their unpublished novel are alive and plotting against them.",
+          "tags":[
+             "writer",
+             "characters",
+             "mystery"
+          ],
+          "inspiration":"L'Homme-Orchestre"
+       },
+       {
+          "idea":"A city governed by a council of dreams, where laws are decided upon each night.",
+          "tags":[
+             "dreams",
+             "city",
+             "council"
+          ],
+          "inspiration":"Le Rêve du baron de Münchausen"
+       },
+       {
+          "idea":"A character wakes up to find they’ve been erased from the memories of everyone they know.",
+          "tags":[
+             "memory",
+             "mystery",
+             "identity"
+          ],
+          "inspiration":"La Photographie électrique"
+       },
+       {
+          "idea":"A pair of glasses that let the wearer see people’s future regrets.",
+          "tags":[
+             "glasses",
+             "future",
+             "regrets"
+          ],
+          "inspiration":"La Lanterne magique"
+       },
+       {
+          "idea":"A magician discovers they can perform real magic, but only at great personal cost.",
+          "tags":[
+             "magician",
+             "magic",
+             "cost"
+          ],
+          "inspiration":"L'Homme aux cent trucs"
+       },
+       {
+          "idea":"A village where every person’s name determines their role in life.",
+          "tags":[
+             "village",
+             "destiny",
+             "roles"
+          ],
+          "inspiration":"Les Quat'Cents Farces du diable"
+       },
+       {
+          "idea":"An explorer finds an island that doesn’t exist on any map, where time flows differently.",
+          "tags":[
+             "explorer",
+             "island",
+             "time"
+          ],
+          "inspiration":"L'Île de Calypso"
+       },
+       {
+          "idea":"A group of scientists accidentally brings mythological creatures to life.",
+          "tags":[
+             "scientists",
+             "mythology",
+             "creatures"
+          ],
+          "inspiration":"Les Mésaventures d'un aéronaute"
+       },
+       {
+          "idea":"A hotel where the rooms change based on the guest’s unspoken desires.",
+          "tags":[
+             "hotel",
+             "desires",
+             "mystery"
+          ],
+          "inspiration":"L'Auberge du bon repos"
+       },
+       {
+          "idea":"A child befriends a ghost who insists they are still alive.",
+          "tags":[
+             "child",
+             "ghost",
+             "friendship"
+          ],
+          "inspiration":"Les Cartes vivantes"
+       },
+       {
+          "idea":"A meteor crashes into a remote town, granting the residents unusual abilities.",
+          "tags":[
+             "meteor",
+             "abilities",
+             "town"
+          ],
+          "inspiration":"Les Quat'Cents Farces du diable"
+       },
+       {
+          "idea":"A photographer’s camera begins to reveal events that happen minutes later.",
+          "tags":[
+             "photographer",
+             "camera",
+             "future"
+          ],
+          "inspiration":"La Photographie électrique"
+       },
+       {
+          "idea":"A character discovers their reflection has been subtly altering its actions over time.",
+          "tags":[
+             "reflection",
+             "mystery",
+             "identity"
+          ],
+          "inspiration":"Le Miroir de Venise"
+       },
+       {
+          "idea":"A world where everyone dreams the same dream every night.",
+          "tags":[
+             "dreams",
+             "world",
+             "mystery"
+          ],
+          "inspiration":"Le Rêve de Baron de Münchausen"
+       },
+       {
+          "idea":"A pirate crew searching for a treasure that can rewrite their past mistakes.",
+          "tags":[
+             "pirates",
+             "treasure",
+             "redemption"
+          ],
+          "inspiration":"Les Quat'Cents Farces du diable"
+       },
+       {
+          "idea":"A scientist develops a machine that allows people to communicate with plants.",
+          "tags":[
+             "plants",
+             "science",
+             "communication"
+          ],
+          "inspiration":"L'Homme à la tête de caoutchouc"
+       },
+       {
+          "idea":"A person wakes up in a world where colors no longer exist but can be rediscovered through music.",
+          "tags":[
+             "color",
+             "music",
+             "discovery"
+          ],
+          "inspiration":"Les Illusions fantaisistes"
+       },
+       {
+          "idea":"A circus performer who can manipulate light discovers their gift comes from an otherworldly pact.",
+          "tags":[
+             "circus",
+             "light",
+             "mystery"
+          ],
+          "inspiration":"L'Illusionniste"
+       },
+       {
+          "idea":"A novelist meets a stranger who claims to be the protagonist of their unfinished book.",
+          "tags":[
+             "novelist",
+             "mystery",
+             "protagonist"
+          ],
+          "inspiration":"L'Homme à cent trucs"
+       },
+       {
+          "idea":"A teacher finds a chalkboard that grants them the ability to teach any skill they write on it.",
+          "tags":[
+             "teacher",
+             "skills",
+             "mystery"
+          ],
+          "inspiration":"Les Sept Péchés capitaux"
+       },
+       {
+          "idea":"A character whose dreams begin leaking into the real world, causing chaos.",
+          "tags":[
+             "dreams",
+             "chaos",
+             "reality"
+          ],
+          "inspiration":"Le Rêve de Baron de Münchausen"
+       },
+       {
+          "idea":"A musician’s instrument plays melodies from an unknown source, predicting future events.",
+          "tags":[
+             "musician",
+             "melody",
+             "future"
+          ],
+          "inspiration":"Le Mélomane"
+       },
+       {
+          "idea":"A train that only stops for people who are at a crossroads in life.",
+          "tags":[
+             "train",
+             "crossroads",
+             "mystery"
+          ],
+          "inspiration":"Le Tunnel sous la Manche"
+       },
+       {
+          "idea":"A painting that changes every time someone tells a lie in front of it.",
+          "tags":[
+             "painting",
+             "truth",
+             "mystery"
+          ],
+          "inspiration":"Les Illusions fantaisistes"
+       },
+       {
+          "idea":"A character finds a key that can open doors to places they’ve never been.",
+          "tags":[
+             "key",
+             "adventure",
+             "mystery"
+          ],
+          "inspiration":"Les Cartes vivantes"
+       },
+       {
+          "idea":"A town where everyone wakes up with a single word on their hand every morning, hinting at their day ahead.",
+          "tags":[
+             "words",
+             "destiny",
+             "mystery"
+          ],
+          "inspiration":"Le Rêve du Baron de Münchausen"
+       },
+       {
+          "idea":"A library where the books recount the reader’s own life, but with missing pages.",
+          "tags":[
+             "library",
+             "life story",
+             "mystery"
+          ],
+          "inspiration":"Les Illusions fantaisistes"
+       },
+       {
+          "idea":"A mysterious shopkeeper sells ‘what if’ scenarios as tangible objects.",
+          "tags":[
+             "shopkeeper",
+             "what if",
+             "mystery"
+          ],
+          "inspiration":"Les Cartes vivantes"
+       },
+       {
+          "idea":"A chef creates dishes that allow people to relive their happiest memories.",
+          "tags":[
+             "chef",
+             "memory",
+             "food"
+          ],
+          "inspiration":"Le Repas fantastique"
+       },
+       {
+          "idea":"A mysterious stranger offers people the chance to erase one memory forever.",
+          "tags":[
+             "memory",
+             "mystery",
+             "stranger"
+          ],
+          "inspiration":"La Photographie électrique"
+       },
+       {
+          "idea":"A world where everyone is born with a unique superpower that vanishes at adulthood.",
+          "tags":[
+             "superpower",
+             "childhood",
+             "mystery"
+          ],
+          "inspiration":"Les Cartes vivantes"
+       },
+       {
+          "idea":"A child discovers they can travel through mirrors into alternate realities.",
+          "tags":[
+             "mirrors",
+             "child",
+             "adventure"
+          ],
+          "inspiration":"Les Cartes vivantes"
+       },
+       {
+          "idea":"A group of travelers accidentally awaken a sleeping god beneath a mountain.",
+          "tags":[
+             "travelers",
+             "god",
+             "mystery"
+          ],
+          "inspiration":"Le Royaume des Fées"
+       },
+       {
+          "idea":"A character wakes up to find they are the only person left in the world who can hear music.",
+          "tags":[
+             "music",
+             "isolation",
+             "mystery"
+          ],
+          "inspiration":"Les Illusions Fantaisistes"
+       },
+       {
+          "idea":"A detective investigates a string of crimes where the culprit leaves behind notes predicting the future.",
+          "tags":[
+             "detective",
+             "future",
+             "notes"
+          ],
+          "inspiration":"Les Quat'Cents Farces du diable"
+       },
+       {
+          "idea":"A river that shows visions of the future to anyone who drinks from it.",
+          "tags":[
+             "river",
+             "future",
+             "visions"
+          ],
+          "inspiration":"La Colonne de feu"
+       },
+       {
+          "idea":"A village where the stars rearrange themselves every night to tell a story.",
+          "tags":[
+             "stars",
+             "village",
+             "stories"
+          ],
+          "inspiration":"Le Royaume des Fées"
+       },
+       {
+          "idea":"A teenager develops the ability to communicate with animals but must keep it secret.",
+          "tags":[
+             "animals",
+             "communication",
+             "teenager"
+          ],
+          "inspiration":"Le Royaume des Fées"
+       },
+       {
+          "idea":"A character discovers an abandoned ship in the middle of the desert, with a working engine.",
+          "tags":[
+             "ship",
+             "desert",
+             "adventure"
+          ],
+          "inspiration":"Les Mésaventures d'un aéronaute"
+       }
+    ]
+ }
