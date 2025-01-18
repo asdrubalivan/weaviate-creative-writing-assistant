@@ -7,3 +7,4 @@ def load_ideas() -> IdeaList:
         data = json.load(file)
         ideas = data.get('creative_writing_ideas', [])
         return [Idea(**idea) for idea in ideas]
+
