@@ -65,4 +65,4 @@
   - Use LangGraph for stateful agent workflows and human-in-the-loop interactions.
   - Emphasize iterative refinement and branching of ideas based on user feedback.
   - Implement streaming feedback for token-by-token idea generation.
-  
+  - You will use uv package manager to install dependencies.
