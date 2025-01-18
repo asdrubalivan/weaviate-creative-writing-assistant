@@ -1,5 +1,5 @@
-from pydantic import BaseSettings, AnyUrl, field_validator
-
+from pydantic import AnyUrl, field_validator
+from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     weaviate_endpoint: AnyUrl
     weaviate_api_key: str
@@ -12,7 +12,7 @@ class Settings(BaseSettings):
         return v
 
     class Config:
-        env_file = '../.env'
+        env_file = '.env'
         env_file_encoding = 'utf-8' 
 
 settings = Settings()
