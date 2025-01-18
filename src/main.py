@@ -2,6 +2,7 @@ from models import Idea, IdeaList
 import json
 from settings import settings
 import weaviate
+import weaviate.auth
 
 def load_ideas() -> IdeaList:
     with open('src/creative_ideas.json', 'r') as file:
@@ -11,9 +12,10 @@ def load_ideas() -> IdeaList:
 
 def save_ideas_to_weaviate():
     # Connect to Weaviate using settings
-    client = weaviate.Client(
-        url=settings.weaviate_endpoint,
-        auth_client_secret=weaviate.AuthApiKey(api_key=settings.weaviate_api_key)
+    client = weaviate.connect_to_weaviate_cloud(
+        cluster_url=settings.weaviate_endpoint,
+        auth_credentials=weaviate.auth.AuthApiKey(api_key=settings.weaviate_api_key),
+        headers={'X-OpenAI-Api-key': settings.openai_api_key}
     )
 
     # Load ideas

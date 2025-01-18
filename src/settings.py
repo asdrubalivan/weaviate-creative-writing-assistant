@@ -1,9 +1,11 @@
 from pydantic import AnyUrl, field_validator
 from pydantic_settings import BaseSettings
+
 class Settings(BaseSettings):
     weaviate_endpoint: AnyUrl
     weaviate_api_key: str
     cohere_api_key: str
+    openai_api_key: str
 
     @field_validator('weaviate_endpoint')
     def validate_weaviate_domain(cls, v: AnyUrl) -> AnyUrl:
