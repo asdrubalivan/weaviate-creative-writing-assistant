@@ -37,3 +37,6 @@ def save_ideas_to_weaviate():
 # Call the function to save ideas
 save_ideas_to_weaviate()
 
+# Create collection
+
+# Save data to collection
