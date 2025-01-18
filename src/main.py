@@ -3,6 +3,7 @@ import json
 from settings import settings
 import weaviate
 import weaviate.auth
+import weaviate.classes.config as wvcc
 
 def load_ideas() -> IdeaList:
     with open('src/creative_ideas.json', 'r') as file:
@@ -18,6 +19,25 @@ def save_ideas_to_weaviate():
         headers={'X-OpenAI-Api-key': settings.openai_api_key}
     )
 
+    # Define the class schema for CreativeIdea
+    collection_name = "CreativeIdea"
+    vectorizer_config = wvcc.Configure.Vectorizer.text2vec_cohere()
+    generative_config = wvcc.Configure.Generative.cohere()
+    properties = [
+        wvcc.Property(name="idea", data_type=wvcc.DataType.TEXT),
+        wvcc.Property(name="tags", data_type=wvcc.DataType.TEXT_ARRAY),
+        wvcc.Property(name="inspiration", data_type=wvcc.DataType.TEXT)
+    ]
+
+    # Check if the class already exists
+    if not client.collections.exists(name=collection_name):
+        client.collections.create(
+            name=collection_name,
+            vectorizer_config=vectorizer_config,
+            generative_config=generative_config,
+            properties=properties
+        )
+
     # Load ideas
     ideas = load_ideas()
 
@@ -29,7 +49,7 @@ def save_ideas_to_weaviate():
                 "tags": idea.tags,
                 "inspiration": idea.inspiration
             },
-            class_name="CreativeIdea"
+            class_name=collection_name
         )
     client.close()
     print("All ideas have been saved to Weaviate.")
