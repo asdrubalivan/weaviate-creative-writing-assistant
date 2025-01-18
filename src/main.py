@@ -41,15 +41,16 @@ def save_ideas_to_weaviate():
     # Load ideas
     ideas = load_ideas()
 
+    collection = client.collections.get(collection_name)
+
     # Iterate over each idea and insert into Weaviate
     for idea in ideas:
-        client.data_object.create(
-            data_object={
+        collection.data.insert(
+            properties={
                 "idea": idea.idea,
                 "tags": idea.tags,
                 "inspiration": idea.inspiration
-            },
-            class_name=collection_name
+            }
         )
     client.close()
     print("All ideas have been saved to Weaviate.")
