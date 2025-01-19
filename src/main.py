@@ -66,5 +66,19 @@ def save_ideas_to_weaviate():
     client.close()
     print("All ideas have been saved to Weaviate.")
 
+@app.command()
+def print_ideas():
+    """
+    Load and pretty print creative writing ideas from a JSON file.
+    """
+    print("List of ideas:")
+    print("-" * 80)
+    ideas = load_ideas()
+    for idea in ideas:
+        print(f"Idea: {idea.idea}")
+        print(f"Tags: {', '.join(idea.tags)}")
+        print(f"Inspiration: {idea.inspiration}")
+        print("-" * 40)
+
 if __name__ == "__main__":
     app()
