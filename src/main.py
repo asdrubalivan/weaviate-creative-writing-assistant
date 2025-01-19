@@ -1,3 +1,4 @@
+import typer
 from models import Idea, IdeaList
 import json
 from settings import settings
@@ -5,13 +6,23 @@ import weaviate
 import weaviate.auth
 import weaviate.classes.config as wvcc
 
+app = typer.Typer()
+
 def load_ideas() -> IdeaList:
     with open('src/creative_ideas.json', 'r') as file:
         data = json.load(file)
         ideas = data.get('creative_writing_ideas', [])
         return [Idea(**idea) for idea in ideas]
 
+@app.command()
 def save_ideas_to_weaviate():
+    """
+    Save creative writing ideas to a Weaviate instance.
+
+    This command connects to a Weaviate instance using the provided settings,
+    checks if the 'CreativeIdea' class exists, and creates it if not. It then
+    loads ideas from a JSON file and inserts them into the Weaviate collection.
+    """
     # Connect to Weaviate using settings
     client = weaviate.connect_to_weaviate_cloud(
         cluster_url=settings.weaviate_endpoint.unicode_string(),
@@ -55,9 +66,5 @@ def save_ideas_to_weaviate():
     client.close()
     print("All ideas have been saved to Weaviate.")
 
-# Call the function to save ideas
-save_ideas_to_weaviate()
-
-# Create collection
-
-# Save data to collection
+if __name__ == "__main__":
+    app()
