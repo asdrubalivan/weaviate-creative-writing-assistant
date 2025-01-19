@@ -16,7 +16,7 @@ def save_ideas_to_weaviate():
     client = weaviate.connect_to_weaviate_cloud(
         cluster_url=settings.weaviate_endpoint.unicode_string(),
         auth_credentials=weaviate.auth.AuthApiKey(api_key=settings.weaviate_api_key),
-        headers={'X-OpenAI-Api-key': settings.openai_api_key}
+        headers={'X-Cohere-Api-Key': settings.cohere_api_key},
     )
 
     # Define the class schema for CreativeIdea

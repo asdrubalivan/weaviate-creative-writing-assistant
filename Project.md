@@ -20,7 +20,7 @@ To develop a creative writing assistant that suggests story ideas using a vector
 2. **Technologies Used:**
     - **Weaviate**: For storing and retrieving semantically similar concepts.
     - **LangGraph**: To handle stateful agent workflows and human-in-the-loop interactions.
-    - **FastAPI**: As the backend API to interact with the iOS app.
+    - **Typed CLI**: As the backend interface for command-line interactions.
 
 ---
 
@@ -29,11 +29,11 @@ To develop a creative writing assistant that suggests story ideas using a vector
 #### **Phase 1: Setup (30 minutes)**
 - [X] Install and configure Weaviate locally or via a cloud provider.
 - [ ] Set up LangGraph with necessary dependencies.
-- [ ] Initialize a FastAPI project for API interactions.
+- [ ] Initialize a Typed CLI project for command-line interactions.
 
 #### **Phase 2: Database Initialization (20 minutes)**
-- [ ] Define a schema in Weaviate for storing story-related concepts (e.g., themes, genres, and character types).
-- [ ] Populate Weaviate with sample data for testing (e.g., predefined ideas, literary concepts).
+- [X] Define a schema in Weaviate for storing story-related concepts (e.g., themes, genres, and character types).
+- [X] Populate Weaviate with sample data for testing (e.g., predefined ideas, literary concepts).
 
 #### **Phase 3: LangGraph Workflow Design (30 minutes)**
 - [ ] Create a LangGraph workflow for the following:
@@ -43,10 +43,10 @@ To develop a creative writing assistant that suggests story ideas using a vector
   - [ ] **Branching**: Generate multiple variations of a rejected idea for user selection.
 
 #### **Phase 4: Backend Development (40 minutes)**
-- [ ] Integrate Weaviate and LangGraph into FastAPI endpoints:
-  - [ ] **Endpoint 1**: Generate initial story ideas based on user input.
-  - [ ] **Endpoint 2**: Accept user feedback to refine ideas.
-  - [ ] **Endpoint 3**: Save approved ideas to the database.
+- [ ] Integrate Weaviate and LangGraph into Typed CLI commands:
+  - [ ] **Command 1**: Generate initial story ideas based on user input.
+  - [ ] **Command 2**: Accept user feedback to refine ideas.
+  - [ ] **Command 3**: Save approved ideas to the database.
 - [ ] Enable streaming for token-by-token feedback during idea generation.
 
 #### **Phase 5: Testing and Debugging (20 minutes)**
@@ -60,9 +60,9 @@ To develop a creative writing assistant that suggests story ideas using a vector
 ---
 
 ### **Deliverables**
-1. **Functional Backend API**:
-    - [ ] Story idea generation endpoint.
-    - [ ] User feedback and refinement endpoint.
+1. **Functional Backend CLI**:
+    - [ ] Story idea generation command.
+    - [ ] User feedback and refinement command.
     - [ ] Persistence for storing approved ideas.
 
 2. **Weaviate Schema**:
